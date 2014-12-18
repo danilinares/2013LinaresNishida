@@ -1,0 +1,21 @@
+Data and  R code to conduct the statistics and create the figures in:
+
+A synchronous surround increases the motion strength gain of motion.
+Daniel Linares and Shin’ya Nishida
+Journal of Vision
+2013
+
+1. Install the packages that are loaded in the first lines of 'functions.R'.
+2. Run 'functions.R' that  contains the functions that I used. 
+3. Run 'analysis.R'. The figures will be created in the folder library. It might
+take about one hour.
+
+
+Computing time. 
+
+To compute the bootstrap samples for the conjoint fit might take more than one day. 
+For that reason, 'analysis.R' reads 'fitAllBoot.txt' that contains already 1000 samples. 
+To generate the bootstrap samples from scratch you need to execute 
+'bootstrapForConjointFit.R'
+
+
